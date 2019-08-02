@@ -1,0 +1,21 @@
+<a routerLink="/"> < back</a>
+<h2>
+  Add new products
+</h2>
+<form
+  id="Product"
+  name="Product"
+  #productData="ngForm"
+  (ngSubmit)="addNewProduct(productData.value)"
+>
+  <label>
+    Name:
+  </label>
+  <input type="text" name="name" id="name" placeholder="name" ngModel /><br />
+  <label>
+    Color:
+  </label>
+  <input type="text" name="color" id="color" placeholder="color" ngModel />
+  <br />
+  <input type="submit" value="Add Product" />
+</form>

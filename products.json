@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "mobile",
+      "color": "brown",
+      "id": 2
+    },
+    {
+      "name": "bag",
+      "color": "skyblue",
+      "id": 4
+    }
+  ]
+}
